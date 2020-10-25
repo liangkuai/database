@@ -18,7 +18,7 @@
 ### [（事务）并发控制](/docs/MySQL/并发控制)
 - 悲观并发控制
     - [x] [锁机制](/docs/MySQL/并发控制/锁机制.md)
-        - [x] （InnoDB）锁算法
+        - [x] [（InnoDB）锁算法](/docs/MySQL/并发控制/锁算法.md)
 - 乐观并发控制
     - 版本机制
         - [x] [多版本并发控制（MVCC）](/docs/MySQL/并发控制/多版本并发控制.md)
