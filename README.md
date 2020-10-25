@@ -1,6 +1,5 @@
 # 数据库
 
-
 ### [事务](/docs/事务)
 - 事务特性（ACID）
     - [x] 原子性
@@ -13,6 +12,17 @@
 
 ## MySQL
 
+### 架构
+- [x] [服务端](/docs/MySQL/架构/服务端.md)
+- [存储引擎](/docs/MySQL/架构/存储引擎.md)
+    - [ ] InnoDB
+    - [ ] MyISAM
+- [ ] 客户端
+
+### [SQL](/docs/MySQL/SQL)
+- [ ] DDL
+- [ ] DML
+
 ### [MySQL 事务](/docs/MySQL/事务.md)
 
 ### [（事务）并发控制](/docs/MySQL/并发控制)
@@ -23,17 +33,15 @@
     - 版本机制
         - [x] [多版本并发控制（MVCC）](/docs/MySQL/并发控制/多版本并发控制.md)
 
-### 存储引擎
-- [ ] InnoDB
-- [ ] MyISAM
-
 ### 索引
-
 
 ### 部署模式
 - [ ] [主从复制](/docs/MySQL/主从复制.md)
 
-### [优化](/docs/MySQL/优化.md)
-- 垂直分表
-- 水平分表
-- 读写分离
+### 优化
+- [ ] [查询优化](/docs/MySQL/优化/查询优化.md)
+    - [ ] [explain](/docs/MySQL/SQL/explain.md)
+- [x] [数据库设计优化](/docs/MySQL/优化/数据库设计优化.md)
+    - 垂直分表
+    - 水平分表
+    - 读写分离
