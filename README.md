@@ -42,7 +42,7 @@
 ### 优化
 - [ ] [查询优化](/docs/MySQL/优化/查询优化.md)
     - [ ] [explain](/docs/MySQL/SQL/explain.md)
-- [x] [数据库设计优化](/docs/MySQL/优化/数据库设计优化.md)
-    - 垂直分表
-    - 水平分表
-    - 读写分离
+- 数据库设计优化
+    - [intro](/docs/MySQL/优化/数据库设计优化.md)
+    - [ ] [读写分离](/docs/MySQL/优化/读写分离.md)
+    - [x] [分表](/docs/MySQL/优化/分表.md)
