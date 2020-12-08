@@ -57,9 +57,9 @@ range 指的是有范围的索引扫描，相对于 index 的全索引扫描，�
 
 ### Extra
 
-- `Useing index` 表示使用到覆盖索引，避免了回表操作，效率不错
+- `Useing index` 表示使用到覆盖索引，避免了回表操作，效率不错。
 - `Using index condition` 表示先条件过滤索引，过滤完索引后找到所有符合索引条件的数据行，随后用 where 子句中的其他条件去过滤这些数据行
-- `Using Where` 表示 server 在存储引擎收到行后会进行按 where 条件过滤，过滤条件字段无索引
+- `Using where` 表示 server 在存储引擎收到行后会进行按 where 条件过滤，过滤条件字段无索引。
 - `Using filesort` 表示需要依赖排序算法来实现排序，数据较少时从内存排序，否则从磁盘排序
 - `Using temporay` 表示 MySQL 需要创建一个临时表来保存结果，例如查询包含不同列的 group by 和 order by 子句。
 - `Using join buffer` (Block Nested Loop) 表示 join 的时候没有用到索引，得进行 join buffer 中进行 join
