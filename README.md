@@ -1,32 +1,36 @@
 # 数据库
 
 ### 1. 事务
+
 - [intro](/docs/事务/README.md)
     - 事务特性（ACID）
-        - [x] 原子性
-        - [x] 一致性
-        - [x] 隔离性
-            - [x] [事务隔离级别](/docs/事务/事务隔离级别.md)
-        - [x] 持久性
+        - 原子性
+        - 一致性
+        - 隔离性
+            - [事务隔离级别](/docs/事务/事务隔离级别.md)
+        - 持久性
     - ACID 之间的关系
 
 
 ## MySQL
 
 ### 1. 架构
-- [x] [服务端](/docs/MySQL/架构/服务端.md)
+
+- [服务端](/docs/MySQL/架构/服务端.md)
 - [存储引擎](/docs/MySQL/架构/存储引擎.md)
     - [ ] InnoDB
     - [ ] MyISAM
 - [ ] 客户端
 
 ### 2. SQL
+
 - [intro](/docs/MySQL/SQL/README.md)
 - [ ] DDL
 - [ ] DML
 
 ### 3. 索引
-- [x] [B+树](/docs/MySQL/索引/B+树.md)
+
+- [B+树](/docs/MySQL/索引/B+树.md)
 - [ ] [InnoDB 索引](/docs/MySQL/索引/InnoDB索引.md)
 
 ### 4. MySQL 事务
