@@ -1,6 +1,11 @@
 # 数据库
 
-### 1. 事务
+### 1. [SQL](./docs/SQL/README.md)
+
+- [ ] DDL
+- [ ] DML
+
+### 2. 事务
 
 - [intro](/docs/事务/README.md)
     - 事务特性（ACID）
@@ -21,12 +26,6 @@
     - [ ] InnoDB
     - [ ] MyISAM
 - [ ] 客户端
-
-### 2. SQL
-
-- [intro](/docs/MySQL/SQL/README.md)
-- [ ] DDL
-- [ ] DML
 
 ### 3. 索引
 
