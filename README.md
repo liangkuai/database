@@ -28,13 +28,17 @@
     - [ ] MyISAM
 - [ ] 客户端
 
+
 ### 3. 索引
 
 - [B+树](/docs/MySQL/索引/B+树.md)
 - [ ] [InnoDB 索引](/docs/MySQL/索引/InnoDB索引.md)
 
+
 ### 4. MySQL 事务
+
 - [intro](/docs/MySQL/事务.md)
+
 
 ### 5.（事务）并发控制
 - [intro](/docs/MySQL/并发控制/README.md)
